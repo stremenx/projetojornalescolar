@@ -57,37 +57,51 @@ body {
     display: flex;
 }
 
-.menu li{
+.menu > li{
     list-style: none;
     position: relative;
 }
 
 
-.menu li a {
+.menu > li a {
     padding: 13px;
     color: white;
     font-size: 20px;
+    display: block;
     text-decoration: none;
     border-radius: 3px;
 }
 
-.menu li a:hover {
-    background-color: var(--cor2);
+.menu > li:hover {
+    background-color:var(--cor2);
     font-size: 21px;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.301) ;
+    border-radius: 5%;
 }
 
-.menu li:hover > .submenu {
+.menu > li:hover .submenu {
     display: block;
 }
 
 .submenu {
     display: none;
     position: absolute;
-    top: 40px;
+    top: 51px;
     left: 0;
-    background-color: blueviolet;
-    padding: 0 20px;
+    background-color: var(--cor2);
+    list-style: none;
+    min-width: 100%;
+    border-radius: 5%;
+}
+
+
+.submenu li:hover {
+    background-color: var(--cor0);
+    border-radius: 5%;  
+}
+
+.submenu li a:hover {
+    font-size: 25px;
 }
 
 .banner {
