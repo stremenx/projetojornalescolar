@@ -59,7 +59,9 @@ body {
 
 .menu li{
     list-style: none;
+    position: relative;
 }
+
 
 .menu li a {
     padding: 13px;
@@ -73,6 +75,19 @@ body {
     background-color: var(--cor2);
     font-size: 21px;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.301) ;
+}
+
+.menu li:hover > .submenu {
+    display: block;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: blueviolet;
+    padding: 0 20px;
 }
 
 .banner {
