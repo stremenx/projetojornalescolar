@@ -24,36 +24,37 @@ html {
 body {
     background-color: var(--cor4);
     font-family: var(--font-padrao);
+    font-size: 16px;
 }
 
 .header {
     width: 100%;
-    height: 50px;
+    height: 3.2em;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 1.3em;
     background-color: var(--cor0);
-    box-shadow: 0 0 13px rgba(0, 0, 0, 0.623);
+    box-shadow: 0 0 0.82em rgba(0, 0, 0, 0.623);
     
 }
 
 .menu-meio {
     width: 100%;
-    height: 55px;
+    height: 3.2em;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--cor0);
-    box-shadow: 0 0 13px rgba(0, 0, 0, 0.623);
-    margin-top: -5px;
+    box-shadow: 0 0 0.82em rgba(0, 0, 0, 0.623);
+    margin-top: -0.32em;
 }
 
 .header h1 {
     color: white;
-    letter-spacing: -0.5px;
+    letter-spacing: -0.02em;
     text-transform:uppercase;
-    text-shadow: 0 0 5px rgba(20, 20, 20, 0.336);
+    text-shadow: 0 0 0.3125em rgba(20, 20, 20, 0.336);
 }
 
 .header h1 span:first-child {
@@ -75,20 +76,30 @@ body {
 
 
 .menu > li a {
-    padding: 13px;
+    padding: 0.79em;
     color: white;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 1.25em;
+    font-weight: 700;
     display: block;
     text-decoration: none;
-    border-radius: 3px;
+    border-radius: 0.19em;
+}
+
+.header nav .home:hover {
+    background-color:var(--cor2);
+    font-size: 1.35em;
+    padding: 0.65em;
+    text-shadow: 0 0 0.32em rgba(0, 0, 0, 0.301) ;
+    border-radius: 10%;
+    font-weight: 800;
 }
 
 .menu > li:hover a{
     background-color:var(--cor2);
-    font-size: 22px;
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.301) ;
-    border-radius: 9%;
+    font-size: 1.29em;
+    padding: 0.8em;
+    text-shadow: 0 0 0.32em rgba(0, 0, 0, 0.301) ;
+    border-radius: 10%;
     font-weight: 800;
 }
 
@@ -98,7 +109,7 @@ body {
 }
 
 .banner img {
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.281);
+    box-shadow: 0em 0.32em 1em rgba(0, 0, 0, 0.281);
 }
 
 
