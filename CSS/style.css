@@ -67,7 +67,7 @@ body {
 }
 
 .menu {
-    display: flex;
+
 }
 
 .menu > li{
@@ -95,7 +95,7 @@ body {
     font-weight: 800;
 }
 
-.menu > li:hover a{
+.menu > li:hover a {
     background-color:var(--cor2);
     font-size: 1.29rem;
     padding: 0.9rem;
@@ -105,8 +105,9 @@ body {
 }
 
 .banner {
-    width: 100%;
+    background-size: cover;
     height: auto;
+    width: 100%;
 }
 
 .banner img {
