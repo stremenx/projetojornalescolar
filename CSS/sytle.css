@@ -121,14 +121,8 @@ body {
 **************************/
 .banner {
     width: 100%;
+    height: auto;
     margin: -5px 0;
-}
-
-@media (max-width: 800px) {
-    .banner {
-        width: 100%;
-        height: auto;
-    }
 }
 
 /*************************
