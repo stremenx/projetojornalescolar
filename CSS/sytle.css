@@ -34,6 +34,7 @@
 body {
     font-family: var(--font-padrao);
     font-weight: normal;
+    background-color: rgb(211, 211, 211);
 }
 
 /******************
@@ -163,8 +164,61 @@ body {
     background-color: #7b9ed6;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 799px) {
     .submenu nav ul li a {
         margin: 0 15px;
     }
 }
+
+.jornal {
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.274);
+    text-align: center;
+    display: block;
+    padding: 0 20%;
+
+}
+
+@media (max-width: 799px)
+{
+    .jornal {
+        padding: 15px;
+    }
+}
+
+
+
+.titulojornal {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 25px;
+}
+
+.subtitulodojornal {
+    font-size: 1.2rem;
+    margin: 0 0 1.2rem 0;
+}
+
+
+.jornal img {
+    width: 50%;
+    height: auto;
+}
+
+@media (max-width: 799px)
+{
+    .jornal img {
+        width: 99%;
+    }
+}
+
+.textojornal {
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.textojornal p {
+    margin: 15px 0 0;
+}
+
+
