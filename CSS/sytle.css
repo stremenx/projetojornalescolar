@@ -170,6 +170,126 @@ body {
     }
 }
 
+/* Noticias */
+
+article {
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.274);
+}
+
+.postmateria {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding:0 20% ;
+}
+
+article img {
+    width: 500px;
+    height: auto;
+    padding-right: 1rem;
+}
+
+.post a {
+    text-decoration: none;
+}
+
+.post a > h2 {
+    font-size: 3rem;
+    text-align: left;
+    padding: 15px 0 0 20%; 
+}
+
+article h3 {
+    font-size: 2rem;
+    margin-top: -5px;
+}
+
+.textotelep {
+    display: none;
+}
+
+article h3 .textptelgran {
+    font-size: 1.1rem;
+}
+
+@media (max-width: 1300px) {
+    .postmateria {
+    padding: 0 18%;
+    }
+    .post img {
+        padding-right: 15px;
+    }
+
+    .post h2 {
+        font-size: 2.5rem;
+        margin-left: 1%;
+    }
+
+    .post h3 {
+        font-size: 2rem;
+    }
+
+    .post .textotelep {
+        font-size: 1.5rem;
+    }
+
+    .post .textptelgran {
+        display: none;
+    }
+
+    .post .textotelep {
+    }
+}
+
+@media (max-width: 1020px) {
+    .postmateria {
+        display: inline-block;
+        text-align: center;
+        padding: 0 1%;
+}
+
+    .post img {
+        width: auto;
+    }
+
+    .post h2 {
+        font-size: 2rem;
+        padding: 0 0 0 7%;
+    } 
+
+    .post h3 {
+        font-size: 2rem;
+        text-align: left;
+        padding: 0 0 0 7%;
+    }
+
+    .post .textotelep {
+        font-size: 1.5rem;
+        font-weight: normal;
+        text-align: left;
+    }
+
+    .post .textptelgran {
+        display: none;
+    }
+}
+
+@media (max-width: 820px) {
+    .postmateria {
+        display: inline-block;
+        text-align: center;
+        padding: 0 18%;
+    }
+
+}
+
+
+
+
+
+
+/* Pag. dos jornais */
 .jornal {
     background-color: white;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.274);
