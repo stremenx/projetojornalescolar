@@ -63,6 +63,10 @@ body {
     text-shadow: 0 0 9px rgba(0, 0, 0, 0.493);
 }
 
+.gmenu {
+    margin: 0 7%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.384);
+}
 
 
 @media (max-width:799px) {
@@ -177,7 +181,7 @@ body {
 
 /* Container */
 .container {
-    margin: 0 3%;
+    margin: 0 7%;
     padding: 2px 0px;
     background-color: white;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.397);
@@ -284,16 +288,19 @@ body {
 
 }
 
+/* Footer */
+
 footer {
     background-color: #140d35;
     color: white;
-    margin: 0 3%;
+    margin: 0 7%;
     padding: 15px 0;
     text-align: center;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.384);
 }
 
 footer a {
+   text-decoration: none;
    color: white;
 }
 
@@ -304,7 +311,12 @@ footer p {
 
 footer img {
     width: 20px;
-    margin: 0px 10px -4px 3px;
+    margin: 0px 5px -4px 10px;
+}
+
+.footericon {
+    display: flex;
+    justify-content: center;
 }
 
 @media (max-width:799px) {

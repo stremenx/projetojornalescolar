@@ -58,6 +58,10 @@ body {
     text-shadow: 0 0 9px rgba(0, 0, 0, 0.493);
 }
 
+.gmenu {
+    margin: 0 7%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.384);
+}
 
 
 @media (max-width:799px) {
@@ -91,8 +95,14 @@ body {
 *    HOME - Menu
 **************************/
 
+.menu ul {
+    margin: 0; 
+}
+
 .menu ul li {
     list-style: none;
+    text-align: right;
+    margin: 0; 
 }
 
 .menu ul li a {
@@ -100,10 +110,11 @@ body {
     font-size: 1.6rem;
     text-decoration: none;
     font-weight: bold;
-    padding: 10px;
+    padding: 10px; 
+    margin: 0; 
 }
 
-.menu ul li a:hover {
+.gmenu ul li a:hover {
     color: var(--cor0);
     border-radius: 7px;
     text-shadow: rgba(0, 0, 0, 0.397);
@@ -113,6 +124,10 @@ body {
 @media (max-width: 799px) {
     .menu ul li a{
         display: none;
+    }
+
+    .menu {
+        margin: 0;
     }
 }
 
@@ -172,7 +187,7 @@ body {
 
 /* Pag. dos jornais */
 .jornal {
-    margin: 0 3%;
+    margin: 0 7%;
     padding: 2px 5%;
     background-color: rgb(255, 255, 255);
     text-align: center;
@@ -344,13 +359,14 @@ p {
 footer {
     background-color: #140d35;
     color: white;
-    margin: 0 3%;
+    margin: 0 7%;
     padding: 15px 0;
     text-align: center;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.384);
 }
 
 footer a {
+   text-decoration: none;
    color: white;
 }
 
@@ -361,7 +377,12 @@ footer p {
 
 footer img {
     width: 20px;
-    margin: 0px 10px -4px 3px;
+    margin: 0px 5px -4px 10px;
+}
+
+.footericon {
+    display: flex;
+    justify-content: center;
 }
 
 @media (max-width:799px) {
