@@ -34,7 +34,7 @@
 body {
     font-family: var(--font-padrao);
     font-weight: normal;
-    background-color:#e0e9f7;
+    background-color:#bfc9da;
 }
 
 .img {
@@ -65,7 +65,7 @@ body {
 
 
 
-@media (max-width:800px) {
+@media (max-width:799px) {
     .header {
         justify-content: center;
     }
