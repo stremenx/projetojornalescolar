@@ -34,12 +34,7 @@
 body {
     font-family: var(--font-padrao);
     font-weight: normal;
-    background-color:#e0e9f7;
-}
-
-.img {
-    width: 100%;
-    display: block;
+    background-color: rgb(211, 211, 211);
 }
 
 /******************
@@ -175,116 +170,56 @@ body {
     }
 }
 
-/* Container */
-.container {
-    margin: 0 3%;
-    padding: 2px 0px;
+/* Pag. dos jornais */
+.jornal {
     background-color: white;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.397);
-}
-
-.container h2 {
-    font-size: 2rem;
-    margin: 10px 0 0 7%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.274);
+    text-align: center;
+    display: block;
+    padding: 0 20%;
 
 }
 
-/* Noticias */
-.container .post a {
-    display: flex;
-    margin-top: 1rem;
-    padding: 0 1%;
+@media (max-width: 799px)
+{
+    .jornal {
+        padding: 15px;
+    }
 }
 
-.container .post a {
-    text-decoration: none;
-    color: black;
+
+
+.titulojornal {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 25px;
 }
 
-.container .post a .imgpost {
-    width: 33%;
-
+.subtitulodojornal {
+    font-size: 1.2rem;
+    margin: 0 0 1.2rem 0;
 }
 
-.container .post a .imgpost img {
-    width: 100%;
+
+.jornal img {
+    width: 50%;
+    height: auto;
 }
 
-.container .post a .textpost {
-    width: 66%;
-    margin: 0 0 0 1%;
+@media (max-width: 799px)
+{
+    .jornal img {
+        width: 99%;
+    }
 }
 
-.textpost h3 {
-    font-size: 2rem;
-}
-.textpost p {
+.textojornal {
+    text-align: left;
     font-size: 1.5rem;
 }
 
-@media (max-width: 1000px) {
-    .container {
-        margin: 0 7px;
-    }
-    .textpost h3 {
-        font-size: 1.5rem;
-    }
-    .textpost p {
-        font-size: 1.2rem;
-    }
+.textojornal p {
+    margin: 15px 0 0;
 }
 
 
-@media (max-width: 999px) {
-    .container {
-        margin: 0 7px;
-    }
-
-    .textpost h3 {
-        font-size: 1.5rem;
-    }
-    .textpost p {
-        font-size: 1.1rem;
-    }
-}
-
-@media (max-width: 799px) {
-    .container {
-        padding: 1%;
-        margin: 0;
-    }
-
-    .container h2 {
-        margin: 0 0 -1px;
-        padding: 5px;
-        background-color: #c2d8fa;
-    }
-
-    .container .post a {
-        display: block;
-        padding: 0;
-        margin-top: 1px;
-    }
-
-    .container .post a .imgpost {
-        width: 100%;
-    }
-
-    .container .post a .textpost {
-        width: 100%;
-    }
-
-    .textpost h3 {
-        text-align: center;
-        text-align: left;
-        font-size: 1.5rem;
-        margin: 5px 0;
-    }
-
-    .textpost p {
-        display: none;
-    }
-
-
-
-}
