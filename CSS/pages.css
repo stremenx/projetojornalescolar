@@ -97,7 +97,7 @@ body {
 
 .menu ul li a {
     color: var(--cor3);
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     text-decoration: none;
     font-weight: bold;
     padding: 10px;
@@ -172,7 +172,7 @@ body {
 
 /* Pag. dos jornais */
 .jornal {
-    margin: 0 7%;
+    margin: 0 3%;
     padding: 2px 5%;
     background-color: rgb(255, 255, 255);
     text-align: center;
@@ -242,9 +242,39 @@ p {
     margin-top: 15px;
 }
 
+/* Vídeo youtube */
+
 .videocorrecaosm {
     display: none;
 }
+
+.videocorrecaomedio {
+    display: none;
+}
+
+
+@media (max-width:1500px) {
+    .jornal .stilojornal .subtitulodojornal {
+        padding: 0 5%;
+        margin: 0 5%;
+    }
+
+}
+
+@media (max-width:1330px) {
+    .videocorrecaopc {
+        display: none;
+    }
+
+    .videocorrecaomedio {
+        display: block;
+        text-align: center;
+    }
+    .videocorrecaosm {
+        display: none;
+    }
+}
+
 
 @media (max-width:799px) {
     .jornal {
@@ -298,8 +328,44 @@ p {
         display: none;
     }
 
+    .videocorrecaomedio {
+        display: none;
+    }
+
     .videocorrecaosm {
         display: block;
         text-align: center;
+    }
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #140d35;
+    color: white;
+    margin: 0 3%;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.384);
+}
+
+footer a {
+   color: white;
+}
+
+footer p {
+    margin: 5px 0;
+    padding: 0;
+}
+
+footer img {
+    width: 20px;
+    margin: 0px 10px -4px 3px;
+}
+
+@media (max-width:799px) {
+    footer {
+        margin: 0;
     }
 }
