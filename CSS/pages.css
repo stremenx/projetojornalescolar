@@ -201,7 +201,7 @@ body {
     background-color: #c2d8fa;
 }
 
-.jornal .titulojornal:hover {
+.titulojornal:hover {
     background-color: #7e316e;
     color: white;
 }
@@ -255,6 +255,17 @@ p {
     font-size: 1rem;
     text-align: right;
     margin-top: 15px;
+}
+
+
+.efeitotitulo {
+    padding: 15px 0;
+}
+
+.efeitotitulo:hover {
+    background-color: #7e316e;
+    color: white;
+    padding: 15px 0;
 }
 
 /* Vídeo youtube */
@@ -390,3 +401,4 @@ footer img {
         margin: 0;
     }
 }
+
