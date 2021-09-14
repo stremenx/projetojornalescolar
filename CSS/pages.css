@@ -240,6 +240,10 @@ p {
     margin: 0.5rem 0;
 }
 
+.espaco {
+    padding: 25px;
+}
+
 .videocorrecaopc {
     text-align: center;
     margin: 1.5rem 0;
@@ -287,7 +291,7 @@ p {
 
 }
 
-@media (max-width:1330px) {
+@media (max-width:1330px) {    
     .videocorrecaopc {
         display: none;
     }
@@ -303,18 +307,32 @@ p {
 
 
 @media (max-width:799px) {
+    .gmenu {
+        padding: 0;
+        margin: -1px -3px -1px 0;
+    } 
+
+    .submenu {
+        margin: -6px 0 0px 0;
+    }
+
     .jornal {
-        margin: 0;
-        padding: 2px 0;
+        margin: -1px -3px -1px 0;
+        padding: 0;
         background-color: rgb(255, 255, 255);
         text-align: center;
         box-shadow: 0 0 15px rgba(0, 0, 0, 0.384);
-        text-align: ;
+    }
+
+    .jornal .subtitulodojornal {
+        font-size: 28px;
+        margin: 0;
+        padding: 0;
     }
 
     .jornal .stilojornal{
         text-align: left;
-        padding: 0 0%;
+        padding: 0 0;
     }
 
     .jornal .titulojornal {
@@ -364,6 +382,29 @@ p {
     }
 }
 
+/* Button */
+.buttonstyle {
+    width: 100px;
+    margin: 0 10px;
+    padding: 15px;
+    font-size: 19px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5%;
+    color: white;
+    background: rgb(89,38,194);
+    background: linear-gradient(90deg, rgba(89,38,194,1) 41%, rgba(54,20,160,1) 100%); 
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.404);
+}
+
+.buttonstyle:hover {
+    background:rgb(112, 62, 212);
+}
+
+.jornal .textojornal .button {
+    display: flex;
+    justify-content: center;
+}
 
 /* Footer */
 
@@ -373,7 +414,7 @@ footer {
     margin: 0 7%;
     padding: 15px 0;
     text-align: center;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.384);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.158);
 }
 
 footer a {
@@ -398,7 +439,13 @@ footer img {
 
 @media (max-width:799px) {
     footer {
-        margin: 0;
+        margin: -8px -4px 0 0;
+    }
+
+    .footericon {
+
+    flex-direction: column;
+
     }
 }
 
