@@ -239,6 +239,13 @@ body {
     .container {
         margin: 0 7px;
     }
+    
+    .container .titulojornal{
+        margin: -1px 0;
+        padding: 5px 0;
+    }
+
+
     .textpost h3 {
         font-size: 1.5rem;
     }
