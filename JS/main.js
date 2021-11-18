@@ -1,1 +1,0 @@
-alert("Esse Site se encontra em desenvolvimento!")
